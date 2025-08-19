@@ -1,0 +1,5 @@
+uagents==0.22.3
+crewai==0.105.0
+crewai-tools==0.42.0
+openai==1.76.0
+protobuf==5.29.4

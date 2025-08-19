@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  arxiv_agent:
+    build:
+      context: .
+      dockerfile: Dockerfile  # This assumes your Dockerfile is named exactly "Dockerfile"
+    ports:
+      - "8002:8002"
+    stdin_open: true
+    tty: true
+    networks:
+      - uagents-net
+
+networks:
+  uagents-net:

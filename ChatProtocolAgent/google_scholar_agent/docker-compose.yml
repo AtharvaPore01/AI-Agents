@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  google_scholar_agent:
+    build:
+      context: .
+      dockerfile: Dockerfile  # This assumes your Dockerfile is named exactly "Dockerfile"
+    ports:
+      - "8003:8003"
+    stdin_open: true
+    tty: true
+    networks:
+      - uagents-net
+
+networks:
+  uagents-net:

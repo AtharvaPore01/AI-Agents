@@ -1,0 +1,4 @@
+
+Your Node.js version 16.20.2 is currently not supported by n8n.
+Please use a Node.js version that satisfies the following version range: >=18.17 <= 22
+

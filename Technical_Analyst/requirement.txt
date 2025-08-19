@@ -1,0 +1,25 @@
+# Data fetching and handling
+requests==2.31.0
+
+# Data processing
+pandas==1.5.3
+
+# Technical analysis
+ta==0.10.2
+
+# Chart generation
+matplotlib==3.7.3
+seaborn==0.12.2
+plotly==5.15.0  # Optional, for interactive charts
+
+# AI model integration
+openai==0.11.5  # Replace with the actual version you're using
+
+# Workflow automation with n8n (handle API calls and other interactions)
+# Note: n8n is typically used externally rather than as a Python package.
+
+# Additional utilities
+numpy==1.24.3
+
+# Environment management (dotenv for managing API keys and secrets)
+python-dotenv==1.0.0
